@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fme.Core.Web", "src\Fme.Core.Web\Fme.Core.Web.xproj", "{294FBECE-3566-43BA-8FF2-F9C3668CD6AB}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fme.Core.Dal", "src\Fme.Core.Dal\Fme.Core.Dal.xproj", "{FE75670A-1C4E-4880-BCD2-87E42056E8B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{294FBECE-3566-43BA-8FF2-F9C3668CD6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294FBECE-3566-43BA-8FF2-F9C3668CD6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294FBECE-3566-43BA-8FF2-F9C3668CD6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{294FBECE-3566-43BA-8FF2-F9C3668CD6AB} = {61053DFA-677E-4DB9-8E88-A7D8BBE8811C}
+		{FE75670A-1C4E-4880-BCD2-87E42056E8B1} = {61053DFA-677E-4DB9-8E88-A7D8BBE8811C}
 	EndGlobalSection
 EndGlobal
