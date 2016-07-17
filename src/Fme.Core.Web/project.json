@@ -20,12 +20,7 @@
   },
 
   "frameworks": {
-    "net46": { },
-    "dnx451": {
-      "dependencies": {
-        "Fme.Core.Dal": "1.0.0-*"
-      }
-    }
+    "net46": { }
   },
 
   "buildOptions": {

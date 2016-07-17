@@ -14,6 +14,12 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fme.Core.Web", "src\Fme.Cor
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fme.Core.Dal", "src\Fme.Core.Dal\Fme.Core.Dal.xproj", "{FE75670A-1C4E-4880-BCD2-87E42056E8B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{383BE111-0357-4B70-A6BE-6D444C738B14}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleApp1", "test\ConsoleApp1\ConsoleApp1.xproj", "{8778CA2A-D0DA-41E0-92D3-E62CD26E0431}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fme.Core.Domain", "src\Fme.Core.Domain\Fme.Core.Domain.xproj", "{1726E0C4-35D7-4372-BC97-987B8BCDFB57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +34,14 @@ Global
 		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE75670A-1C4E-4880-BCD2-87E42056E8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8778CA2A-D0DA-41E0-92D3-E62CD26E0431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8778CA2A-D0DA-41E0-92D3-E62CD26E0431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8778CA2A-D0DA-41E0-92D3-E62CD26E0431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8778CA2A-D0DA-41E0-92D3-E62CD26E0431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1726E0C4-35D7-4372-BC97-987B8BCDFB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1726E0C4-35D7-4372-BC97-987B8BCDFB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1726E0C4-35D7-4372-BC97-987B8BCDFB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1726E0C4-35D7-4372-BC97-987B8BCDFB57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +49,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{294FBECE-3566-43BA-8FF2-F9C3668CD6AB} = {61053DFA-677E-4DB9-8E88-A7D8BBE8811C}
 		{FE75670A-1C4E-4880-BCD2-87E42056E8B1} = {61053DFA-677E-4DB9-8E88-A7D8BBE8811C}
+		{8778CA2A-D0DA-41E0-92D3-E62CD26E0431} = {383BE111-0357-4B70-A6BE-6D444C738B14}
+		{1726E0C4-35D7-4372-BC97-987B8BCDFB57} = {61053DFA-677E-4DB9-8E88-A7D8BBE8811C}
 	EndGlobalSection
 EndGlobal

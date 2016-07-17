@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Fme.Core.Dal": "1.0.0-*",
+    "Fme.Core.Domain": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "net46": {}
+  }
+}
