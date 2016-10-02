@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Fme.Core.Web
+namespace Fme.Core.Web2
 {
     public class Startup
     {
@@ -36,9 +36,6 @@ namespace Fme.Core.Web
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
-            services.AddLogging();
-            
 
             services.AddMvc();
         }
