@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.Extensions.Options;
+using System.Security.Claims;
 //using Microsoft.Framework.DependencyInjection;
 
 namespace Fme.Core.Web
@@ -91,7 +92,9 @@ namespace Fme.Core.Web
                 ValidateLifetime = true,
 
                 // If you want to allow a certain amount of clock drift, set that here:
-                ClockSkew = TimeSpan.Zero
+                ClockSkew = TimeSpan.Zero,
+
+                RoleClaimType = ClaimTypes.Role
             };
 
             app.UseJwtBearerAuthentication(new JwtBearerOptions()

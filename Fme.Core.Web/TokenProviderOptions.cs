@@ -11,7 +11,7 @@ namespace Fme.Core.Web
 
         public string Audience { get; set; }
 
-        public TimeSpan Expiration { get; set; } = TimeSpan.FromMinutes(5);
+        public TimeSpan Expiration { get; set; } = TimeSpan.FromHours(8);
 
         public SigningCredentials SigningCredentials { get; set; }
     }

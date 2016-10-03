@@ -12,7 +12,8 @@ namespace Fme.Core.Web.Controllers
     {
         // GET api/values
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles="test")]
+        //[Authorize]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
